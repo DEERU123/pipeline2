@@ -3,7 +3,7 @@ def buildJar() {
     sh 'mvn package'
 } 
 def testAPP() {
-    echo "building the application..."
+    echo "test in the App"
     sh 'mvn test'
 } 
 def buildImage() {
