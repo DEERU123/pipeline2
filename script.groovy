@@ -2,7 +2,7 @@ def buildJar() {
     echo "building the application..."
     sh 'mvn package'
 } 
-def testAPP() {
+def testApp() {
     echo "test in the App"
     sh 'mvn test'
 } 
